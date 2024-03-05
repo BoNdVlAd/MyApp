@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Домашня пекарня</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" type="" href="./style.css" />
+  </head>
+  <body>
+    <header class="header_flex">
+      <h1>Домашня пекарня</h1>
+      <nav>
+        <ul class="topics">
+          <li><a href="#">Головна</a></li>
+          <li><a href="#">Топ для команії</a></li>
+          <li><a href="#">Про нас</a></li>
+          <li><a href="#">Контакти</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="bunner">
+        <h2 class="bunner_title">Наші смаколики у кожен дім</h2>
+        <p class="bunner_text">Найкращий сайт для замовлення смаколика, зробленого з любов'ю</p>
+        <img class="imageBackground" src="./baking.jpg" alt="Домашня випічка" />
+      </section>
+
+      <section class="categories">
+        <div class="categories_flex">
+          <h3>Категорії :</h3>
+          <ul class="categories_btns">
+            <li><a href="#">Дисерти</a></li>
+            <li><a href="#">З м'ясом</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="all">
+        <h2 class="all_title">Наш асортимент</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Назва</th>
+              <th>Ціна</th>
+              <th>Опис</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Булочки з маком</td>
+              <td>20 грн</td>
+              <td>Смачні булочки з додаванням маку.</td>
+            </tr>
+            <tr>
+              <td>Шоколадні кекси</td>
+              <td>25 грн</td>
+              <td>Ніжні кекси з шоколадом.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="orders">
+        <div class="orders_wrapper">
+          <h2 class="orders_title">Замовлення</h2>
+          <form id="order-form" method="post">
+            <div class="orders_flex">
+              <div>
+                <label for="name">Ім'я:</label>
+                <input type="text" id="name" name="name" required /><br /><br />
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required /><br /><br />
+              </div>
+              <div>
+                <label for="product">Оберіть товар:</label>
+                <select id="product" name="product">
+                  <option value="bulochki">Булочки з маком</option>
+                  <option value="keksi">Шоколадні кекси</option></select
+                ><br /><br />
+              </div>
+            </div>
+
+            <input class="orders_buy" type="submit" value="Замовити" />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Домашня пекарня твоєї мрії. Усі права захищені.</p>
+    </footer>
+  </body>
+</html>

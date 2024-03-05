@@ -1,0 +1,196 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.categories {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+#order-form {
+  background-color: #fff;
+  border: 2px solid #e0e0e0;
+  padding: 20px;
+}
+
+h2 + p {
+  margin-top: 0;
+}
+
+section ul li {
+  list-style-type: circle;
+}
+
+a[href='#'] {
+  color: blue;
+}
+
+body {
+  font-family: 'Pacifico', cursive;
+  font-weight: 400;
+  font-style: normal;
+  overflow-x: hidden;
+  background-color: #f1e1d2;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  color: #000;
+}
+
+table {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+ul.topics {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul.topics li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.bunner {
+  position: relative;
+  height: 212px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.imageBackground {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.4;
+  height: 212px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.bunner_title {
+  text-align: center;
+  font-size: 36px;
+  margin-top: 15px;
+}
+
+.bunner_text {
+  text-align: center;
+  font-size: 32px;
+  max-width: 870px;
+  margin: 0 auto;
+}
+
+.header_flex {
+  height: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 30px;
+  color: #000;
+}
+.header_flex a {
+  color: black;
+  text-decoration: none;
+}
+
+.categories {
+  height: 80px;
+  padding-left: 50%;
+}
+.categories_flex {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.categories_btns {
+  display: flex;
+  gap: 22px;
+}
+.categories_btns li {
+  list-style: none;
+  padding: 9px 30px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  background-color: #f7d4b8;
+}
+
+.categories_btns a {
+  text-decoration: none;
+  color: #000;
+}
+.all_title {
+  text-align: center;
+}
+
+.orders {
+  margin: 30px 0;
+}
+
+#order-form {
+  background-color: #ebebeb;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  height: 200px;
+}
+
+.orders_flex {
+  height: 180px;
+  align-items: center;
+  gap: 110px;
+  display: flex;
+}
+
+#order-form input {
+  width: 300px;
+  height: 30px;
+  border-radius: 20px;
+  border: none;
+}
+
+.orders_wrapper {
+  max-width: 870px;
+  margin: 0 auto;
+}
+
+.orders_title {
+  text-align: center;
+}
+
+.orders_buy {
+  background-color: #fff7b2;
+  display: block;
+  height: 40px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
