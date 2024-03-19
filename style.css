@@ -194,3 +194,38 @@ footer {
   align-items: center;
   justify-content: center;
 }
+
+.goods {
+}
+.goods_title {
+  text-align: center;
+}
+.goods_wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+}
+.goods_cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.goods_card {
+  background-color: #f1c59b;
+  width: 300px;
+  height: 350px;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+.goods_card_img {
+  width: 100%;
+  height: 60%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.goods_card_title {
+}
+.goods_card_price {
+}
+.goods_card_descr {
+}
