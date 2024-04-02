@@ -120,6 +120,7 @@ ul.topics li {
   height: 80px;
   padding-left: 50%;
 }
+
 .categories_flex {
   display: flex;
   align-items: center;
@@ -228,4 +229,63 @@ footer {
 .goods_card_price {
 }
 .goods_card_descr {
+}
+@media (max-width: 870px) {
+  .categories {
+    display: flex;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 950px) {
+  .goods_cards {
+    align-items: center;
+    justify-content: center;
+  }
+  .goods_wrapper {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .orders_flex {
+    display: flex;
+    flex-direction: column;
+    height: 220px;
+    gap: 20px;
+  }
+  #order-form {
+    height: 260px;
+  }
+  .orders {
+    display: flex;
+  }
+}
+
+@media (max-width: 500px) {
+  #order-form input {
+    width: 100%;
+  }
+  .orders_buy {
+    margin-top: 20px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .bunner_title {
+    font-size: 24px;
+  }
+  .bunner_text {
+    font-size: 18px;
+  }
+  .categories_flex {
+    flex-direction: column;
+  }
+  .categories {
+    height: 160px;
+  }
+  footer {
+    font-size: 12px;
+  }
 }
