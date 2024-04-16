@@ -8,16 +8,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
     <link rel="stylesheet" type="" href="./style.css" />
+    <script defer src="/script.js"></script>
   </head>
   <body>
     <header class="header_flex">
       <h1>Домашня пекарня</h1>
       <nav>
         <ul class="topics">
-          <li><a href="#">Головна</a></li>
-          <li><a href="#">Топ для команії</a></li>
-          <li><a href="#">Про нас</a></li>
-          <li><a href="#">Контакти</a></li>
+          <li>Головна</li>
+          <li onclick="scrollToGoods()">Товари</li>
+          <li onclick="scrollToBuy()">Замовити</li>
+          <li>Контакти</li>
         </ul>
       </nav>
     </header>
@@ -39,7 +40,7 @@
         </div>
       </section>
 
-      <section class="goods">
+      <section id="goods" class="goods">
         <div class="goods_wrapper">
           <h2 class="goods_title">Наші товари</h2>
           <div class="goods_cards">
@@ -90,7 +91,7 @@
       </section>
 
       <section class="orders">
-        <div class="orders_wrapper">
+        <div id="buy" class="orders_wrapper">
           <h2 class="orders_title">Замовлення</h2>
           <form id="order-form" method="post">
             <div class="orders_flex">

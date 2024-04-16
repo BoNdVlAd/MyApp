@@ -68,6 +68,7 @@ ul.topics {
 ul.topics li {
   display: inline;
   margin-right: 20px;
+  cursor: pointer;
 }
 
 .bunner {
